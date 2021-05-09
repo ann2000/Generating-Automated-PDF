@@ -20,3 +20,4 @@ def bar_chart(credit, debit, balance):
     n = len(x)
     index = np.arange(n)
 
+    fig, ax = plt.subplots(1, 1, figsize=(16,7), dpi= 96)
