@@ -17,3 +17,6 @@ def bar_chart(credit, debit, balance):
     y1 = [y for (x,y) in credit]
     y2 = [y for (x,y) in debit]
     y3 = [y for (x,y) in balance]
+    n = len(x)
+    index = np.arange(n)
+
